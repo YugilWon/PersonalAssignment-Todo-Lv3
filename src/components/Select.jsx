@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 import {
   SelectContainer,
   SelectBox,
@@ -18,9 +17,9 @@ function Select() {
     { id: 4, value: "option4", label: "리액트네이티브" },
   ];
 
-  const [selected1, setSelected1] = useState("");
+  const [selected1, setSelected1] = useState(options[0].label);
   const [isActive1, setIsActive1] = useState(false);
-  const [selected2, setSelected2] = useState("");
+  const [selected2, setSelected2] = useState(options[0].label);
   const [isActive2, setIsActive2] = useState(false);
 
   return (
