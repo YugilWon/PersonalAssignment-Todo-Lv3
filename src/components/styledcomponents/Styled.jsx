@@ -56,7 +56,7 @@ export const SelectContainer = styled.div`
   flex-direction: column;
   width: 100%;
   margin-top: 20px;
-  overflow: hidden;
+  height: 300px;
 `;
 
 export const SelectBox = styled.div`
@@ -66,6 +66,7 @@ export const SelectBox = styled.div`
   border: 1px solid #ccc;
   border-radius: 4px;
   padding: 20px;
+  height: 150px;
   overflow: hidden;
 `;
 export const SelectTitle = styled.h1`
@@ -81,6 +82,37 @@ export const Dropdown = styled.select`
   border: 1px solid #ccc;
   border-radius: 12px;
   margin-bottom: 10px;
+`;
+
+export const DropdownContainer = styled.div`
+  position: absolute;
+  top: -43px;
+  margin-left: 200px;
+  position: relative;
+  display: inline-block;
+`;
+
+export const DropdownButton = styled.div`
+  background-color: #ffffff;
+  color: #000000;
+  width: 150px;
+  margin-left: 10px;
+  padding: 10px;
+  border: 1px solid #dddddd;
+  cursor: pointer;
+`;
+
+export const DropdownContent = styled.div`
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  padding: 10px;
+  z-index: 1;
+`;
+
+export const DropdownItem = styled.div`
+  padding: 5px;
+  cursor: pointer;
 `;
 
 //인풋부분-------------------------------------------------
