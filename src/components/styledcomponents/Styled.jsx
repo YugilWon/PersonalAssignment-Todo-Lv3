@@ -26,7 +26,7 @@ export const MediumButton = styled(Button)`
   height: 50px;
   width: 150px;
 `;
-//-----------------------------------------------------------
+//모달부분---------------------------------------------------
 export const ModalContainer = styled.div`
   position: fixed;
   top: 50%;
@@ -50,13 +50,12 @@ export const ModalOverlay = styled.div`
   justify-content: center;
   align-items: center;
 `;
-//모달부분---------------------------------------------------
+//셀렉부분--------------------------------------------------
 export const SelectContainer = styled.div`
   position: relative;
   flex-direction: column;
   width: 100%;
   margin-top: 20px;
-  overflow: hidden;
 `;
 
 export const SelectBox = styled.div`
@@ -66,9 +65,7 @@ export const SelectBox = styled.div`
   border: 1px solid #ccc;
   border-radius: 4px;
   padding: 20px;
-  overflow: hidden;
 `;
-
 export const SelectTitle = styled.h1`
   margin-top: 10px;
   font-size: 24px;
@@ -82,19 +79,21 @@ export const Dropdown = styled.select`
   border: 1px solid #ccc;
   border-radius: 12px;
   margin-bottom: 10px;
+  overflow: hidden;
 `;
-//셀렉부분---------------------------------------------------
+
 export const InputContainer = styled.div`
   display: flex;
   align-items: center;
   margin-top: 8px;
+  overflow: hidden;
 `;
 
 export const Label = styled.label`
   font-size: 16px;
   margin-bottom: 8px;
 `;
-
+//인풋부분-------------------------------------------------
 export const Input = styled.input`
   padding: 8px;
   margin-left: 10px;
@@ -116,4 +115,3 @@ export const SaveButton = styled.button`
     background-color: #c82333;
   }
 `;
-//인풋부분---------------------------------------------------
